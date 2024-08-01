@@ -1,4 +1,7 @@
 # BaseConvert
+> [!NOTE]
+> This library is designed to work with the string representation of numbers. Basically you input a number as a string and get the output as a string. This was done for a specific use case
+
 Convert from one base to another. Binary, octal, hexadecimal, decimal, etc<br>
 Supports base with **2-32 bits**<br>
 Average **performance is 200 nanoseconds** per conversion (0.0002 milliseconds)<br>

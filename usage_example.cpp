@@ -44,7 +44,9 @@ std::string convertBase(std::string input_str, uint8_t input_base, uint8_t outpu
 
 int main()
 {
-    std::cout << convertBase("11111101000", 2, 10);
+    std::cout << convertBase("11111101000", 2, 10) << std::endl;
+    std::cout << convertBase("11111101000", 2, 16) << std::endl;
+    std::cout << convertBase("7E8", 16, 10) << std::endl;
 
     return 0;
 }
